@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "sitezeqpaper"
+    }
+  },
+  "defaultProject": "sitezeqpaper",
+  "cli": {
+    "analytics": "c80a461a-3e02-490b-9740-63cde31c4a36"
+  }
 }
