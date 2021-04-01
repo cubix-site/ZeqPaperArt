@@ -1,7 +1,50 @@
-p {
-    text-align: center;
-    padding-bottom: 10px;
-    font-family: 'Lobster', cursive;
-    position: absolute;
-    bottom: 0;
+.construcao {
+    p {
+        text-align: center;
+        padding-bottom: 10px;
+        font-family: 'Lobster', cursive;
+        bottom: 0;
+        margin-top: 100px;
+        padding-bottom: 10px;
+    }
+}
+.tablet {
+    display: none;
+}
+.mobile {
+    display: none;
+}
+
+@media screen and (max-width: 425px) and (min-width: 250px) {
+    p {
+        text-align: center;
+        padding-bottom: 10px;
+        font-family: 'Lobster', cursive;
+        position: absolute;
+        bottom: 0;
+    }
+    .construcao {
+        display: none;
+    }
+    .tablet {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 426px) {
+    .mobile {
+        display: none;
+    }
+    .construcao {
+        display: none;
+    }
+    .tablet {
+        display: inline;
+        p {
+            text-align: center;
+            font-family: 'Lobster', cursive;
+            margin-top: 100px;
+            padding-bottom: 10px;
+        }
+    }
 }
